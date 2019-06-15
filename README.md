@@ -32,3 +32,12 @@ Click any photo, it will show the original size image.
     ![wireframe1](./doc/wireframe02.png)
 
 *   The wireframes are not exactly same as implementation.
+
+# APIs available
+
+-   Get Users: http://localhost:3001/api/users
+-   Get Users by user ID 1: http://localhost:3001/api/users/1
+-   Get Albums: http://localhost:3001/api/albums
+-   Get Albums by user ID 1: http://localhost:3001/api/albums/1
+-   Get Photos: http://localhost:3001/api/photos
+-   Get Photos by album ID 1: http://localhost:3001/api/photos/1
