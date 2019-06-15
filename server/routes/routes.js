@@ -10,13 +10,13 @@ module.exports = function (app) {
     // REACT ROUTES
     // album
     const albumRoutes = require('./album_routes');
-    app.use('/api/album', albumRoutes);
+    app.use('/api/albums', albumRoutes);
 
     const photoRoutes = require('./photo_routes');
-    app.use('/api/photo', photoRoutes);
+    app.use('/api/photos', photoRoutes);
 
     // USER ROUTES
     const userRoutes = require('./user_routes');
-    app.use('/api/user', userRoutes);
+    app.use('/api/users', userRoutes);
 
 };
